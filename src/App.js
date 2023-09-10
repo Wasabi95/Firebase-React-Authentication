@@ -52,7 +52,7 @@ function App() {
     <div className="App">
       {!isLoggedIn ? (
         <div className="login-container">
-          <h2>Welcome to the Authentication App</h2>
+          <h2>Welcome to the Authentication App with Firebase</h2>
           <button onClick={SignUpUsingGoogle} type="button" className="login-with-google-btn">
             Sign in with Google
           </button>
